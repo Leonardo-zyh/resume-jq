@@ -10,13 +10,14 @@
 
 <body>
   <nav>
-    <div class="logo">Leoz</div>
+    <div class="logo">Leoz's resume</div>
     <ul id="menu">
       <li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
       <li data-menuanchor="page2"><a href="#page2">关于我</a></li>
-      <li data-menuanchor="page3"><a href="#page3">技能</a></li>
-      <li data-menuanchor="page4"><a href="#page4">项目</a></li>
+      <li data-menuanchor="page3"><a href="#page3">项目</a></li>
+      <li data-menuanchor="page4"><a href="#page4">技能</a></li>
       <li data-menuanchor="page5"><a href="#page5">联系我</a></li>
+      <li data-menuanchor="page6"><a href="https://www.cnblogs.com/gitnull/"  target="_blank">博客</a></li>
     </ul>
   </nav>
   <div id="fullpage">
@@ -28,11 +29,9 @@
         </div>
       </div>
       <div class="down">
-        <img src="lib/imgs/bottom.png"></img>
+        <img src="./21f2d925887357f2a7b588a665f38fc5.png">
       </div>
-      <div class="downPDF">
-        <a class="buttom" href="./lib/PDF/resume.pdf" download="resume.pdf" target="_blank">下载 PDF 简历</a>
-      </div>
+
     </div>
     <div class="section page2">
       <div class="aboutMe">
@@ -40,16 +39,16 @@
         <p>About me</p>
         <div class="messageWrap">
           <div class="avatar">
-            <img src="lib/imgs/touxiang.png" class="vp">
+            <img src="./95b8f2a2403b71099c8783fb27c62684.png" class="vp" id="icon" >
             <div class="contact">
-              <p>Email：362652565@qq.com</p>
-              <p>Tel：131-1665-7989</p>
+              <p>Email：leozmail@foxmail.com</p>
+              <p>Tel：152-1521-0604</p>
             </div>
           </div>
           <div class="message">
             <dl>
               <dt>姓名：</dt>
-              蔡逍侠
+              曾宇豪
             </dl>
             <dl>
               <dt>性别：</dt>
@@ -57,7 +56,7 @@
             </dl>
             <dl>
               <dt>年龄：</dt>
-              24
+              22
             </dl>
             <dl>
               <dt>学历：</dt>
@@ -65,170 +64,224 @@
             </dl>
             <dl>
               <dt>爱好：</dt>
-              篮球，音乐，骑行
+              看书，音乐，摄影
             </dl>
             <dl>
               <dt>梦想：</dt>
-              行万里路，去世界上每个有趣的地方，接触不同故事的人。
+              决定我们成为什么样人的，不是我们的能力，而是我们的选择
             </dl>
             <dl>
               <dt>现居：</dt>
-              上海
+              成都
             </dl>
+            <div class="downPDF">
+              <a class="buttom" href="./resume.pdf" download="曾宇豪-应聘前端工程师.pdf" target="_blank">下载
+                PDF 简历</a>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
     <div class="section page3">
-      <div class="skill">
-        <h2>技能</h2>
-        <p>Skill</p>
-        <div class="skillContent">
-          <ol>
-            <li>
-              HTML 5 &amp; CSS 3
-              <div class="progressBar-wrap">
-                <div class="progressBar" style="width: 80%">
-                </div>
-              </div>
-            </li>
-            <li>
-              JavaScript
-              <div class="progressBar-wrap">
-                <div class="progressBar" style="width: 80%">
-                </div>
-              </div>
-            </li>
-            <li>
-              jQuery
-              <div class="progressBar-wrap">
-                <div class="progressBar" style="width: 80%">
-                </div>
-              </div>
-            </li>
-            <li>
-              Vue
-              <div class="progressBar-wrap">
-                <div class="progressBar" style="width: 20%">
-                </div>
-              </div>
-            </li>
-            <li>
-              yarn npm parcel
-              <div class="progressBar-wrap">
-                <div class="progressBar" style="width: 50%">
-                </div>
-              </div>
-            </li>
-            <li>
-              HTTP
-              <div class="progressBar-wrap">
-                <div class="progressBar" style="width: 40%">
-                </div>
-              </div>
-            </li>
-          </ol>
-        </div>
-        <div class="message">
-          <ul>
-            <h4>HTML/CSS</h4>
-            <li>能够编写语义化HTML，结构化的CSS，能像素级还原设计稿，可以实现响应式以及 移动端页面。</li>
-            <li>熟悉并能运用HTML5 / CSS3新特性，能做出常见的动画效果， 并在实践中能尝试使用未广泛实现的新标准。</li>
-          </ul>
-          <ul>
-            <h4>ECMAScript（JavaScript）</h4>
-            <li>熟练使用 ECMAScript 进行编程，了解闭包，原型链，面向对象，作用域链。</li>
-            <li>熟悉 ES6/7 的常用语法，熟练使用面向对象，模块化的编程思想进行开发， 并在实践中尝试使用设计模式。</li>
-          </ul>
-          <ul>
-            <h4>DOM/BOM</h4>
-            <li>熟悉原生DOM和BOM使用和相关标准，有前端组件开发经验。</li>
-            <li>有前端组件封装经验，并能在实践中灵活运用。</li>
-          </ul>
-          <ul>
-            <h4>前端工程化</h4>
-            <li>了解AMD/CMD规范。
-            </li>
-            <li>使用过 WebPack Parcel 模块化解决方案
-            </li>
-            <li>能在项目中使用Less / Scss等预处理工具。
-            </li>
-            <li>能使用postCss进行后处理
-            </li>
-            <li>熟悉 async / await / Promise，掌握常见的 异步编程 解决方案
-            </li>
-            <li>了解基本的前端兼容性处理，性能优化等知识，并能在项目中加以实践。
-            </li>
-          </ul>
-        </div>
-      </div>
+        <div class="project">
+            <h2>项目展示</h2>
+            <p>Project</p>
+            <div class="projectTab">
+              <ul class="tab">
+                <li class="active">会动的熊本熊</li>
+                <li>网易云音乐</li>
+                <li>重构有赞商城</li>
+                <li>VChat翻译</li>
+                <li>个人简历</li>                
+              </ul>
+              <ul class="content">
+                <li class="active">
+                    <div class="left">
+                        <h3>会动的熊本熊 (CSS3/JS) </h3> 
+                        <p>简介</p>
+                        <p>本项目是利用 CSS3特性，以及精确的元素定位绘出一只熊本熊，利用媒体查询做了响应式布局，适配移动端页面。利用 js 控制 css 代码输出绘制,
+                          <br> <b>此项目响应式布局，适配移动端。（鼠标移动在“传送链接”会显示二维码）</b></p>
+                        <div><a href="https://leonardo-zyh.github.io/Kumamon-CSS3/dist/" target="_blank">传送链接<img src="./d310e3d61fb38f668957fdaf4de3403a.png"
+                          alt="" class="vp"></a></div>
+                      </div>
+                      <div class="right">
+                        <img src="./ade8596a0f62abe5c4aa4b644eca0ea7.png" title="点击预览图片" class="vp">
+                      </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <h3>网易云音乐 (jQuery/MVC)</h3>
+                        <p>简介</p>
+                        <p>
+                          <b>本项目是是一个移动端音乐会播放器。</b> 
+                          <br> 主要是使用了jQuery以及MVC模块化的思想来完成
+                          <br> 可以通过后台页面上传歌曲、编辑歌曲功能。
+                          <br> 前端页面自动更新播放热度高的歌曲
+                          <br> 在线听歌、查看歌词。且配有相应的播放动画。<br>
+                          <b>此项目适配微信，请用微信扫下面二维码通过浏览器打开。（鼠标移动在“传送链接”会显示二维码）</b>
+                        </p>
+                        <div><a href="https://www.cnblogs.com/gitnull/p/10041183.html" target="_blank">项目博客</a> | <a href="https://leonardo-zyh.github.io/163-music-demo/src/index.html" target="_blank">传送链接<img src="./a09b99fb796787b2d33c8b4f509c68ad.png"
+                          alt="" class="vp"></a></div>
+                        <div></div>
+                      </div>
+                      <div class="right">
+                        <img src="./163-music1.jpg" title="点击预览图片" class="vp" >
+                      </div>
+                  
+                </li>
+                <li>
+                    <div class="left">
+                      <h3>Vue.js重构有赞商城 (Vue全家桶)</h3>
+                      <p>简介</p>
+                      <p>
+                        
+                        <p><b> 本项目是一个移动端多页面应用的Vue.js重构项目</b><br>
+                          这个项目使用到vue框架的基本语法以及生命周期等特性，vue-loader、vue-cli、vue-router、vuex的基本使用方法，以及使用到axios，swiper，mint-ui，Volecity库。
+                          <br>  <b> 此项目适配微信，请用微信扫下面二维码通过浏览器打开。（鼠标移动在“传送链接”会显示二维码）</b>
+                        </p>
+                        
+                        
+                      </p>
+                      <p></p>
+                      <div><a href="https://www.cnblogs.com/gitnull/p/10269654.html" target="_blank">项目博客</a> | <a href="https://leonardo-zyh.github.io/Vue-youzanStore/dist/index.html" >传送链接<img src="./1549768457.png"
+                        alt="" class="vp"></a></div>
+                      <div></div>
+                    </div>
+                    <div class="right">
+                      <img src="./youzanimg.jpg" title="点击预览图片" class="vp">
+                    </div>
+                  </li>
+                <li>
+                  <div class="left">
+                    <h3>VChat翻译(小程序)</h3>
+                    <p>简介</p>
+                    <p><b>本项目是一款微信小程序翻译工具</b><br>支持中、英、法、韩、日、阿拉伯、西班牙语的翻译。该工具还能保存用户翻译记录以便之后查看。
+                      <b> 此项目适配微信，请用微信扫下面二维码。（鼠标移动在“传送链接”会显示二维码）</b></p>
+                    <p></p>
+                    <a  target="_blank">传送链接<img src="./gh_d0d8dff74a41_258.jpg"
+                        alt="" class="vp"></a>
+                  </div>
+                  <div class="right">
+                    <img src="./VChat.jpg" title="点击预览图片" class="vp">
+                  </div>
+                </li>
+                <li>
+                  <div class="left">
+                    <h3>个人简历</h3>
+                    <p>简介</p>
+                    <p>使用 <b>jQuery</b>，<b>fullpage</b>，<b>ES6</b> 语法编写 JS，利用 <b>Scss</b> 预处理器编写 CSS ，使用 <b>Parcel</b>
+                      工具打包，使用leancloud的数据库作为留言板保存内容，点击图片可查看大图。</p>
+                    <a href="" target="_blank">传送链接</a>
+                  </div>
+                  <div class="right">
+                    <img src="./leoz-resume.jpg" title="点击预览图片" class="vp">
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+      
     </div>
     <div class="section page4">
-      <div class="project">
-        <h2>项目展示</h2>
-        <p>Project</p>
-        <div class="projectTab">
-          <ul class="tab">
-            <li class="active">导航页</li>
-            <li>会动的熊本熊</li>
-            <li>豆瓣 Top250</li>
-            <li>个人简历</li>
-          </ul>
-          <ul class="content">
-            <li class="active">
-              <div class="left">
-                <h3>导航页</h3>
-                <p>简介</p>
-                <p>
-                  这是一个导航首页。
-                  <br> 主要目的是解决一堆书签无从查找的难堪。
-                  <br> 使用 localStorage 保存页面的数据（防止刷新数据重置）
-                  <br> 页面上的每个按键都对应键盘的此键，每个件都能用键盘出发或者鼠标点击出发。
-                  <br> E（edit）：可以编辑这个书签的链接。 D（delete）：清空此键保存的书签链接。
-                </p>
-                <a href="https://moonlightsmile.github.io/nav/index.html" target="_blank">传送链接</a>
-              </div>
-              <div class="right">
-                <img src="lib/imgs/nav.jpg" class="vp">
-              </div>
-            </li>
-            <li>
-              <div class="left">
-                <h3>会动的熊本熊</h3>
-                <p>简介</p>
-                <p>利用 CSS3特性，以及精确的元素定位绘出一只熊本熊，利用媒体查询做了移动端页面 。利用 js 控制 css 代码输出点点的绘制,<b> 此项目适配移动端，请用微信扫下面二维码。（鼠标移动在“传送链接”会显示二维码）</b></p>
-                <a href="https://moonlightsmile.github.io/Kumamon/index.html" target="_blank">传送链接<img src="./lib/imgs/wxKumamon.png" alt="" class="vp"></a>
-              </div>
-              <div class="right">
-                <img src="lib/imgs/Kumamon.png" class="vp">
-              </div>
-            </li>
-            <li>
-              <div class="left">
-                <h3>豆瓣 Top250p</h3>
-                <p>简介</p>
-                <p>使用ES6 class 语法，面向对象编程，利用 ajax 向豆瓣 api 发送请求，然后拿到 json 数据进行 html 拼接，并渲染到页面。使用 css3的 vw 跟 vh 属性适配移动端各种大小屏幕<b> 此项目适配移动端，请用微信扫下面二维码。（鼠标移动在“传送链接”会显示二维码）</b></p>
-                </p>
-                <a href="https://moonlightsmile.github.io/top250/index.html" target="_blank">传送链接<img src="./lib/imgs/wxTop250.png" alt="" class="vp"></a>
-              </div>
-              <div class="right">
-                <img src="lib/imgs/top250.png" class="vp">
-              </div>
-            </li>
-            <li>
-              <div class="left">
-                <h3>个人简历</h3>
-                <p>简介</p>
-                <p>使用 <b>jQuery</b>，<b>fullpage</b>，<b>ES6</b> 语法编写 JS，利用 <b>Scss</b> 预处理器编写 CSS ，使用 <b>Parcel</b> 工具打包，自己设计了本站。</p>
-                <a href="https://moonlightsmile.github.io/resume-jq/index.html" target="_blank">传送链接</a>
-              </div>
-              <div class="right">
-                <img src="lib/imgs/resume.jpg" class="vp">
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
+        <div class="skill">
+            <h2>技能</h2>
+            <p>Skill</p>
+            <!-- <div class="skillContent">
+              <ol>
+                <li>
+                  HTML 5 &amp; CSS 3
+                  <div class="progressBar-wrap">
+                    <div class="progressBar" style="width: 80%">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  JavaScript
+                  <div class="progressBar-wrap">
+                    <div class="progressBar" style="width: 80%">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  jQuery
+                  <div class="progressBar-wrap">
+                    <div class="progressBar" style="width: 70%">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  Vue
+                  <div class="progressBar-wrap">
+                    <div class="progressBar" style="width: 40%">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  yarn npm parcel
+                  <div class="progressBar-wrap">
+                    <div class="progressBar" style="width: 50%">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  HTTP
+                  <div class="progressBar-wrap">
+                    <div class="progressBar" style="width: 40%">
+                    </div>
+                  </div>
+                </li>
+              </ol>
+            </div> -->
+            <div class="message">
+              <ul>
+                <li>
+                    <b>HTML5 / CSS3</b>
+                    <ul>
+                        <li>掌握常用HTML标签，理解语义化标签、DOM结构和操作，熟悉标准DOM事件流。</li>
+                        <li>掌握CSS选择器、文档流、盒模型、浮动和定位、BFC模式，了解网页常见布局(Float布局和Flex布局)、媒体查询等响应式技术。能按照UI设计还原像素及页面。</li>
+                        <li>掌握并能运用HTML5 / CSS3新特性，能做出常见的动画效果，并在实践中能尝试使用未广泛实现的新标准。</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>JavaScript / ES6</b>
+                    <ul>
+                        <li>熟练使用原生JavaScript进行编程，了解原型、闭包、作用域链、面向对象、异步操作、this等。</li>
+                        <li>掌握ES6常用语法，使用面向对象、模块化编程思想进行开发。</li>
+                        <li>熟悉jQuery操作，如DOM操作，jQuery事件、AJAX等，使用过fullpage.js插件，能够完成页面、轮播、Tab组件。</li>
+
+                    </ul>
+                </li>
+                <li>
+                    <b>Vue.js</b>
+                    <ul>
+                        <li>有Vue全家桶项目开发经验，掌握vue组件、双向绑定、组件间数据传递、Vue-Router和Vuex使用等。</li>
+                        <li>理解Vue生命周期、响应式原理等，了解MVC、MVVC设计思想。</li>
+
+                    </ul>
+                </li>
+                <li>
+                    <b>移动端开发</b>
+                    <ul>
+                        <li>小程序项目开发经验，已发布上线的翻译小程序。</li>
+                        <li>掌握REM、vw/vh、FastClick、媒体查询等技术制作适配移动端页面。</li>
+
+                    </ul>
+                </li>
+                <li>
+                    <b>前端工程化</b>
+                    <ul>
+                        <li>使用过 WebPack,Parcel 模块化解决方案,知道happypack、Dll的wenpack优化方案</li>
+                        <li>能在项目中使用Less / Scss等预处理工具，理解嵌套规则、父选择器 & 、变量等的使用。能够使用Swiper、Bootstrap等前端样式库和动画库进行开发</li>
+                        <!-- <li>了解JSON语言、Node.js基础操作以及NPM使用，能够使用Node.js搭建本地server和简单脚本。</li> -->
+                        <li>了解同源协议，CROS等跨域的实现方式</li>
+                        <li>了解 async / await / Promise，掌握常见的 异步编程 解决方案</li>
+                        <li>了解基本的前端兼容性处理，性能优化等知识，并能在项目中加以实践。掌握 HTTP 基础，能根据HTTP请求、响应和状态码排查问题。</li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+          </div>
     </div>
     <div class="section page5">
       <div class="contactMe">
@@ -238,32 +291,33 @@
             <div class="">
               <h2>社交网络</h2>
               <ul>
-                <li>邮箱：<a target="_blank" href="javascript:;">362652565@qq.com</a></li>
-                <li>Q Q ：<a target="_blank" href="javascript:;">362652565</a></li>
-                <li>Github：<a target="_blank" href="https://github.com/MoonlightSmile">https://github.com/MoonlightSmile</a></li>
-                <li>Wechat：<a href="javascript:;">c362652565<img class="vp" src="./lib/imgs/Wechat.png">（请把鼠标移到我身上😊）</a></li>
+                  <li>电话：<a target="_blank" href="javascript:;">15215210604</a></li>
+                <li>邮箱：<a target="_blank" href="javascript:;">leozmail@foxmail.com</a></li>
+                <li>Q Q ：<a target="_blank" href="javascript:;">956731563</a></li>
+                <li>Github：<a target="_blank" href="https://github.com/Leonardo-zyh">https://github.com/Leonardo-zyh</a></li>
+                <li>Wechat：<a href="javascript:;">hejqs911<img class="vp" src="./IMG_2542.png">（扫码请鼠标移至我身上😊）</a></li>
               </ul>
             </div>
             <!--             <div class="">
               <h2>本站声明</h2>
-              <p> 巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉巴拉芭芭拉</p>
+              <p> </p>
             </div> -->
           </div>
           <div class="right">
             <h2>留言板</h2>
             <form class="messageBoard" id="board">
               <div class="input-field">
-                <input class="contact-message" type="tel" name="tel" required autocomplete="off">
+                <input class="contact-message" type="tel" name="tel" required="" autocomplete="off">
                 <span class="line"></span>
                 <label>电话</label>
               </div>
               <div class="input-field">
-                <input autocomplete="off" class="contact-message" type="email" name="email" required>
+                <input autocomplete="off" class="contact-message" type="email" name="email" required="">
                 <span class="line"></span>
                 <label>邮箱</label>
               </div>
               <div class="input-field">
-                <textarea class="contact-message" rows="4" name="message" required autocomplete="off"></textarea>
+                <textarea class="contact-message" rows="4" name="message" required="" autocomplete="off"></textarea>
                 <span class="line"></span>
                 <label>留言</label>
               </div>
@@ -275,16 +329,25 @@
         </div>
       </div>
       <footer>
-        <h1>Moonlight</h1>
+        <h1>Leoz</h1>
         <div>
-          <p class="ban">© Copyright 2018-2019 Moonlight 版权所有</p>
+          <p class="ban">© Copyright 2018-2019 Leoz 版权所有</p>
         </div>
       </footer>
     </div>
   </div>
   <div class="imgView"><img src="#"></div>
   <div class="messageSend">留言成功</div>
-  <script type="text/javascript" src="./index.js"></script>
+  <script type="text/javascript" src="./resume-jq.js"></script>
+  <script>
+    let icon=document.getElementById('icon')
+    icon.onmouseenter=function(){
+      icon.src='./icon.jpg'
+    }
+    icon.onmouseleave=function(){
+      icon.src='./95b8f2a2403b71099c8783fb27c62684.png'
+    }
+  </script>
 </body>
   
 </html>
